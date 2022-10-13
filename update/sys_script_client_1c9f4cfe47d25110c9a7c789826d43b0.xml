@@ -6,7 +6,7 @@
         <description/>
         <field/>
         <global>true</global>
-        <isolate_script>true</isolate_script>
+        <isolate_script>false</isolate_script>
         <messages/>
         <name>NeedIt onLoad Example</name>
         <order/>
@@ -33,7 +33,7 @@
         <sys_update_name>sys_script_client_1c9f4cfe47d25110c9a7c789826d43b0</sys_update_name>
         <table>x_58872_needit_needit</table>
         <type>onLoad</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
 </record_update>
