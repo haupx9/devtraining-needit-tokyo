@@ -15,6 +15,9 @@
                 <element inactive_on_update="false" label="Your Department Choice" sequence="3" value="your_choice"/>
             </choice>
         </element>
+        <element choice="1" label="State" max_length="40" name="u_state" type="integer">
+            <choice/>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resources 1" sequence="0" value="hr1"/>
@@ -28,6 +31,6 @@
                 <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="When needed" max_length="40" name="u_when_needed" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="when needed" max_length="40" name="u_when_needed" type="glide_date_time"/>
     </element>
 </database>
