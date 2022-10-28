@@ -16,7 +16,17 @@
             </choice>
         </element>
         <element choice="1" label="State" max_length="40" name="u_state" type="integer">
-            <choice/>
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="13"/>
+                <element inactive_on_update="false" label="Awaiting Approval" sequence="1" value="14"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="15"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Awaiting Feedback" sequence="3" value="16"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="Withdrawn" sequence="5" value="18"/>
+            </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>

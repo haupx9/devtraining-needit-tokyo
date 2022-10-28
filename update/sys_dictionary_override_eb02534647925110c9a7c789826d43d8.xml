@@ -5,7 +5,7 @@
         <base_table>task</base_table>
         <calculation/>
         <calculation_override>false</calculation_override>
-        <default_value>13</default_value>
+        <default_value>3</default_value>
         <default_value_override>true</default_value_override>
         <dependent/>
         <dependent_override>false</dependent_override>
