@@ -15,7 +15,7 @@
                 <element inactive_on_update="false" label="Your Department Choice" sequence="3" value="your_choice"/>
             </choice>
         </element>
-        <element choice="1" label="State" max_length="40" name="u_state" type="integer">
+        <element choice="3" default="13" label="State" max_length="40" name="u_state" type="integer">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
                 <element inactive_on_update="false" label="Requested" sequence="0" value="13"/>

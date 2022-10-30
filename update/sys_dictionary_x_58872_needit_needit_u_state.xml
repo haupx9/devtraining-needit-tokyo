@@ -5,13 +5,13 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>State</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>13</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
