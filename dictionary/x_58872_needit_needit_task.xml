@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="e9f3072a473a5110c9a7c789826d43e9" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection">
+    <element audit="true" db_object_id="e9f3072a473a5110c9a7c789826d43e9" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="State" max_length="40" name="u_state" type="string">
             <choice>
                 <element inactive_on_update="false" label="Open" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Work in Progress" sequence="1" value="2"/>
-                <element inactive_on_update="false" label="Closed Conplete" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Closed Coｍplete" sequence="2" value="3"/>
             </choice>
         </element>
     </element>
