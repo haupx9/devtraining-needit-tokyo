@@ -1,0 +1,1925 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="DELETE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"stages":{},"ends":["9099b9a247365110c9a7c789826d432a"],"activities":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>d499b9a247365110c9a7c789826d4328,052af9a247365110c9a7c789826d43e7,341c7de247365110c9a7c789826d4317,77ac792647365110c9a7c789826d437b,9099b9a247365110c9a7c789826d432a</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>d499b9a247365110c9a7c789826d4328,052af9a247365110c9a7c789826d43e7,341c7de247365110c9a7c789826d4317,d16cb12647365110c9a7c789826d433a,77ac792647365110c9a7c789826d437b,9099b9a247365110c9a7c789826d432a</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>NeedIt Tasks</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">d499b9a247365110c9a7c789826d4328</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:02:49</sys_created_on>
+        <sys_id>15d8bd6247365110c9a7c789826d4300</sys_id>
+        <sys_mod_count>96</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:22:07</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <timezone/>
+        <validated>false</validated>
+        <workflow display_value="NeedIt Tasks">9099b9a247365110c9a7c789826d4327</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="DELETE">
+        <access>public</access>
+        <description/>
+        <name>NeedIt Tasks</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:02:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9099b9a247365110c9a7c789826d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>wf_workflow_9099b9a247365110c9a7c789826d4327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:02:49</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:02:49</sys_created_on>
+        <sys_id>d499b9a247365110c9a7c789826d4328</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:02:49</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="NeedIt Tasks">15d8bd6247365110c9a7c789826d4300</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=d499b9a247365110c9a7c789826d4328"/>
+    <wf_condition action="DELETE">
+        <activity display_value="Begin">d499b9a247365110c9a7c789826d4328</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:02:49</sys_created_on>
+        <sys_id>9499b9a247365110c9a7c789826d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:02:49</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Create Task">9f4d1be5c0a8016400043d34ce066316</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create NeedIt Task</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>77ac792647365110c9a7c789826d437b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="NeedIt Tasks">15d8bd6247365110c9a7c789826d4300</workflow_version>
+        <x>859</x>
+        <y>55</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=77ac792647365110c9a7c789826d437b"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>13cd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>17cd79a647365110c9a7c789826d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>46d44a23a9fe19810012d100cca80666</value>
+        <variable display_value="Assigned to">c35e0c980a0a0ba96248a70916cbc62e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>1bcd79a647365110c9a7c789826d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8eca692cc0a80066783fefee57143a1a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>1fcd79a647365110c9a7c789826d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Task template">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>1fcd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>53cd79a647365110c9a7c789826d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8ec7a5dbc0a80066187fa7acf3778705</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>57cd79a647365110c9a7c789826d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait for completion">c35e5fc70a0a0ba96248a7091af61d11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>5bcd79a647365110c9a7c789826d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>5bcd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">c35e176c0a0a0ba96248a7090e235011</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>5fcd79a647365110c9a7c789826d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Task type">c35ddb660a0a0ba96248a7095d22925c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>93cd79a647365110c9a7c789826d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8ed08869c0a800662aafc17e09975bb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>93cd79a647365110c9a7c789826d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone field">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>97cd79a647365110c9a7c789826d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Fulfillment group">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>97cd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+&#13;
+</value>
+        <variable display_value="Advanced Script">989cdb20c0a800661789b3de0f40214a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>9bcd79a647365110c9a7c789826d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>9fcd79a647365110c9a7c789826d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Set values">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>d3cd79a647365110c9a7c789826d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>d3cd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="Task values from">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>d7cd79a647365110c9a7c789826d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>4</value>
+        <variable display_value="Priority">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>dbcd79a647365110c9a7c789826d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c35e03850a0a0ba96248a709503bd0c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>dfcd79a647365110c9a7c789826d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>dfcd79a647365110c9a7c789826d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>NeedIt Task</value>
+        <variable display_value="Short description">c35e10720a0a0ba96248a709d48d0894</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>dfcd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>5fcd79a647365110c9a7c789826d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>task</value>
+        <variable display_value="Task type">c35ddb660a0a0ba96248a7095d22925c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>d7cd79a647365110c9a7c789826d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>4</value>
+        <variable display_value="Priority">c35e49040a0a0ba96248a709c2b3780b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>57cd79a647365110c9a7c789826d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait for completion">c35e5fc70a0a0ba96248a7091af61d11</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>dfcd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8ec1dbcec0a800662abc511f1daedc1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>dbcd79a647365110c9a7c789826d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c35e03850a0a0ba96248a709503bd0c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>9bcd79a647365110c9a7c789826d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">8ec61405c0a800661755b30be4ff8fcd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>53cd79a647365110c9a7c789826d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8ec7a5dbc0a80066187fa7acf3778705</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>dfcd79a647365110c9a7c789826d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8ecbeba5c0a8006672d676cd11dfa881</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>1fcd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8ecf789cc0a8006652fc30aae937c5aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>13cd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8eda2a35c0a800660f7aef7be752bf0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>93cd79a647365110c9a7c789826d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8ed08869c0a800662aafc17e09975bb3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>5bcd79a647365110c9a7c789826d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8ed4dbbec0a800664dbecf404d2c7ccd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>93cd79a647365110c9a7c789826d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Timezone field">8ed32275c0a800665d67078e699a171f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>d3cd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>Fields</value>
+        <variable display_value="Task values from">c35dfee20a0a0ba96248a709f3a40869</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>97cd79a647365110c9a7c789826d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Fulfillment group">c35e07ae0a0a0ba96248a7097c81317c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>17cd79a647365110c9a7c789826d4377</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>46d44a23a9fe19810012d100cca80666</value>
+        <variable display_value="Assigned to">c35e0c980a0a0ba96248a70916cbc62e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>dfcd79a647365110c9a7c789826d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>NeedIt Task</value>
+        <variable display_value="Short description">c35e10720a0a0ba96248a709d48d0894</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>5bcd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">c35e176c0a0a0ba96248a7090e235011</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>1fcd79a647365110c9a7c789826d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Task template">c35e45aa0a0a0ba96248a709f3af7bac</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>9fcd79a647365110c9a7c789826d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value/>
+        <variable display_value="Set values">c35dd7a80a0a0ba96248a709f45ae01b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>d3cd79a647365110c9a7c789826d4375</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">989c45c8c0a8006676efffafaa6d7442</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>1710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>97cd79a647365110c9a7c789826d4378</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+&#13;
+</value>
+        <variable display_value="Advanced Script">989cdb20c0a800661789b3de0f40214a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>77ac792647365110c9a7c789826d437b</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>1bcd79a647365110c9a7c789826d4376</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8eca692cc0a80066783fefee57143a1a</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="Create NeedIt Task">77ac792647365110c9a7c789826d437b</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:20</sys_created_on>
+        <sys_id>1fcd79a647365110c9a7c789826d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:20</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:02:49</sys_created_on>
+        <sys_id>9099b9a247365110c9a7c789826d432a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:37</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="NeedIt Tasks">15d8bd6247365110c9a7c789826d4300</workflow_version>
+        <x>1055</x>
+        <y>244</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=9099b9a247365110c9a7c789826d432a"/>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Request Manager Approval</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>052af9a247365110c9a7c789826d43e7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:15</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="NeedIt Tasks">15d8bd6247365110c9a7c789826d4300</workflow_version>
+        <x>144</x>
+        <y>48</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=052af9a247365110c9a7c789826d43e7"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>13ca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Document Table">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>17ca7de247365110c9a7c789826d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>approval=^EQ</value>
+        <variable display_value="Condition">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>1bca7de247365110c9a7c789826d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Users">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>1fca7de247365110c9a7c789826d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Column">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>1fca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>53ca7de247365110c9a7c789826d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>57ca7de247365110c9a7c789826d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>57cab96247365110c9a7c789826d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>5bca7de247365110c9a7c789826d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>5bca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="Additional approvers script">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>5fca7de247365110c9a7c789826d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>93ca7de247365110c9a7c789826d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>93cab96247365110c9a7c789826d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="Approval Script">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>97ca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>9bca7de247365110c9a7c789826d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>9fca7de247365110c9a7c789826d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>d3ca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>any</value>
+        <variable display_value="Wait for">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>d7ca7de247365110c9a7c789826d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>d7cab96247365110c9a7c789826d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>dbca7de247365110c9a7c789826d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Approval Journal Column">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>dfca7de247365110c9a7c789826d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Document ID">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>dfca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>dfcab96247365110c9a7c789826d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>17ca7de247365110c9a7c789826d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>approval=^EQ</value>
+        <variable display_value="Condition">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>d3ca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>any</value>
+        <variable display_value="Wait for">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>1fca7de247365110c9a7c789826d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Column">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>dfca7de247365110c9a7c789826d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Document ID">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>13ca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Document Table">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>d7cab96247365110c9a7c789826d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>1fca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>93ca7de247365110c9a7c789826d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>1bca7de247365110c9a7c789826d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Users">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>9fca7de247365110c9a7c789826d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="When anyone rejects">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>dbca7de247365110c9a7c789826d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Approval Journal Column">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>97ca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>5fca7de247365110c9a7c789826d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>53ca7de247365110c9a7c789826d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>d7ca7de247365110c9a7c789826d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>9bca7de247365110c9a7c789826d430d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Due date field">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>57cab96247365110c9a7c789826d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>dfca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>5bca7de247365110c9a7c789826d430b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value/>
+        <variable display_value="Groups">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>57ca7de247365110c9a7c789826d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>93cab96247365110c9a7c789826d4380</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="Approval Script">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>dfcab96247365110c9a7c789826d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Advanced">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>052af9a247365110c9a7c789826d43e7</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>5bca7de247365110c9a7c789826d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+</value>
+        <variable display_value="Additional approvers script">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="Request Manager Approval">052af9a247365110c9a7c789826d43e7</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>1</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>5bca7de247365110c9a7c789826d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="DELETE">
+        <activity display_value="Request Manager Approval">052af9a247365110c9a7c789826d43e7</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>2</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:13</sys_created_on>
+        <sys_id>1bca7de247365110c9a7c789826d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:13</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set State to Approved</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:14:07</sys_created_on>
+        <sys_id>341c7de247365110c9a7c789826d4317</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:14:09</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="NeedIt Tasks">15d8bd6247365110c9a7c789826d4300</workflow_version>
+        <x>536</x>
+        <y>54</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=341c7de247365110c9a7c789826d4317"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>341c7de247365110c9a7c789826d4317</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:14:07</sys_created_on>
+        <sys_id>e92cf12647365110c9a7c789826d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:14:07</sys_updated_on>
+        <value>approval=approved^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>341c7de247365110c9a7c789826d4317</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:14:07</sys_created_on>
+        <sys_id>e92cf12647365110c9a7c789826d43b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:14:07</sys_updated_on>
+        <value>approval=approved^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="Set State to Approved">341c7de247365110c9a7c789826d4317</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:14:07</sys_created_on>
+        <sys_id>252cf12647365110c9a7c789826d43ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:14:07</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="DELETE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set State to Closed Complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:15:46</sys_created_on>
+        <sys_id>d16cb12647365110c9a7c789826d433a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:16:05</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="NeedIt Tasks">15d8bd6247365110c9a7c789826d4300</workflow_version>
+        <x>539</x>
+        <y>160</y>
+    </wf_activity>
+    <sys_variable_value action="DELETE" query="document_key=d16cb12647365110c9a7c789826d433a"/>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>d16cb12647365110c9a7c789826d433a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:15:46</sys_created_on>
+        <sys_id>398c716647365110c9a7c789826d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:15:46</sys_updated_on>
+        <value>approval=rejected^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>wf_activity</document>
+        <document_key>d16cb12647365110c9a7c789826d433a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:15:46</sys_created_on>
+        <sys_id>398c716647365110c9a7c789826d433c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:15:46</sys_updated_on>
+        <value>approval=rejected^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="DELETE">
+        <activity display_value="Set State to Closed Complete">d16cb12647365110c9a7c789826d433a</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:15:46</sys_created_on>
+        <sys_id>718c716647365110c9a7c789826d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:15:46</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="DELETE">
+        <condition display_value="Approved">5bca7de247365110c9a7c789826d430f</condition>
+        <from display_value="Request Manager Approval">052af9a247365110c9a7c789826d43e7</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:08:15</sys_created_on>
+        <sys_id>23ca7da247365110c9a7c789826d438e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:14:09</sys_updated_on>
+        <to display_value="Set State to Approved">341c7de247365110c9a7c789826d4317</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">252cf12647365110c9a7c789826d43ba</condition>
+        <from display_value="Set State to Approved">341c7de247365110c9a7c789826d4317</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:14:38</sys_created_on>
+        <sys_id>5d4cfd2647365110c9a7c789826d43c7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:22</sys_updated_on>
+        <to display_value="Create NeedIt Task">77ac792647365110c9a7c789826d437b</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">718c716647365110c9a7c789826d433d</condition>
+        <from display_value="Set State to Closed Complete">d16cb12647365110c9a7c789826d433a</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:33</sys_created_on>
+        <sys_id>92dd7d6647365110c9a7c789826d43cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:33</sys_updated_on>
+        <to display_value="End">9099b9a247365110c9a7c789826d432a</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">1fcd79a647365110c9a7c789826d4379</condition>
+        <from display_value="Create NeedIt Task">77ac792647365110c9a7c789826d437b</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:21:22</sys_created_on>
+        <sys_id>afcd7de247365110c9a7c789826d432b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:21:22</sys_updated_on>
+        <to display_value="End">9099b9a247365110c9a7c789826d432a</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Always">9499b9a247365110c9a7c789826d4329</condition>
+        <from display_value="Begin">d499b9a247365110c9a7c789826d4328</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:02:49</sys_created_on>
+        <sys_id>d899b9a247365110c9a7c789826d432a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:08:15</sys_updated_on>
+        <to display_value="Request Manager Approval">052af9a247365110c9a7c789826d43e7</to>
+    </wf_transition>
+    <wf_transition action="DELETE">
+        <condition display_value="Rejected">1bca7de247365110c9a7c789826d4310</condition>
+        <from display_value="Request Manager Approval">052af9a247365110c9a7c789826d43e7</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:15:51</sys_created_on>
+        <sys_id>f28c752647365110c9a7c789826d43da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:15:51</sys_updated_on>
+        <to display_value="Set State to Closed Complete">d16cb12647365110c9a7c789826d433a</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="DELETE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:02:49</sys_created_on>
+        <sys_id>5099b9a247365110c9a7c789826d4326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:02:49</sys_updated_on>
+        <workflow_version display_value="NeedIt Tasks">15d8bd6247365110c9a7c789826d4300</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="DELETE" query="workflow=9099b9a247365110c9a7c789826d4327^sys_id!=15d8bd6247365110c9a7c789826d4300">
+        <published>false</published>
+    </wf_workflow_version>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>c421eff9dbca5d180ae3ac44d49619af</instance_id>
+        <instance_name>dev135307</instance_name>
+        <name>wf_workflow_9099b9a247365110c9a7c789826d4327</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="wf_workflow_version"&gt;&lt;wf_workflow_version action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;activity_stages&gt;{"subflows":[],"stages":{},"ends":["9099b9a247365110c9a7c789826d432a"],"activities":{}}&lt;/activity_stages&gt;&lt;after_business_rules&gt;false&lt;/after_business_rules&gt;&lt;checked_out/&gt;&lt;checked_out_by/&gt;&lt;column_renderer display_value="Workflow-driven"&gt;a56213111b030100adca1e094f0713ac&lt;/column_renderer&gt;&lt;condition/&gt;&lt;condition_type&gt;run_match&lt;/condition_type&gt;&lt;description/&gt;&lt;expected_sequences&gt;d499b9a247365110c9a7c789826d4328,052af9a247365110c9a7c789826d43e7,341c7de247365110c9a7c789826d4317,77ac792647365110c9a7c789826d437b,9099b9a247365110c9a7c789826d432a&lt;/expected_sequences&gt;&lt;expected_time&gt;1970-01-01 14:00:00&lt;/expected_time&gt;&lt;expected_time_type/&gt;&lt;full_sequences&gt;d499b9a247365110c9a7c789826d4328,052af9a247365110c9a7c789826d43e7,341c7de247365110c9a7c789826d4317,d16cb12647365110c9a7c789826d433a,77ac792647365110c9a7c789826d437b,9099b9a247365110c9a7c789826d432a&lt;/full_sequences&gt;&lt;journal/&gt;&lt;max_activity_count&gt;100&lt;/max_activity_count&gt;&lt;name&gt;NeedIt Tasks&lt;/name&gt;&lt;not_cacheable&gt;false&lt;/not_cacheable&gt;&lt;on_cancel&gt;&lt;![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]&gt;&lt;/on_cancel&gt;&lt;order&gt;100&lt;/order&gt;&lt;pin_type&gt;set_by_activity&lt;/pin_type&gt;&lt;published&gt;true&lt;/published&gt;&lt;relative_duration/&gt;&lt;requires_ert&gt;true&lt;/requires_ert&gt;&lt;run_multiple&gt;false&lt;/run_multiple&gt;&lt;schedule/&gt;&lt;stage_field/&gt;&lt;stage_order&gt;computed&lt;/stage_order&gt;&lt;start display_value="Begin"&gt;d499b9a247365110c9a7c789826d4328&lt;/start&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:02:49&lt;/sys_created_on&gt;&lt;sys_id&gt;15d8bd6247365110c9a7c789826d4300&lt;/sys_id&gt;&lt;sys_mod_count&gt;96&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:22:07&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;timezone/&gt;&lt;validated&gt;false&lt;/validated&gt;&lt;workflow display_value="NeedIt Tasks"&gt;9099b9a247365110c9a7c789826d4327&lt;/workflow&gt;&lt;/wf_workflow_version&gt;&lt;wf_workflow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;description/&gt;&lt;name&gt;NeedIt Tasks&lt;/name&gt;&lt;preview/&gt;&lt;sys_class_name&gt;wf_workflow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:02:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9099b9a247365110c9a7c789826d4327&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt Tasks&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;wf_workflow_9099b9a247365110c9a7c789826d4327&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:02:49&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;template&gt;false&lt;/template&gt;&lt;vars/&gt;&lt;/wf_workflow&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Begin"&gt;c7a5e32c0a0a0b3a002377c24ed8ea76&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;1&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Begin&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:02:49&lt;/sys_created_on&gt;&lt;sys_id&gt;d499b9a247365110c9a7c789826d4328&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:02:49&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="NeedIt Tasks"&gt;15d8bd6247365110c9a7c789826d4300&lt;/workflow_version&gt;&lt;x&gt;20&lt;/x&gt;&lt;y&gt;20&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d499b9a247365110c9a7c789826d4328"/&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Begin"&gt;d499b9a247365110c9a7c789826d4328&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:02:49&lt;/sys_created_on&gt;&lt;sys_id&gt;9499b9a247365110c9a7c789826d4329&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:02:49&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Create Task"&gt;9f4d1be5c0a8016400043d34ce066316&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;6&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Create NeedIt Task&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;77ac792647365110c9a7c789826d437b&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:22&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="NeedIt Tasks"&gt;15d8bd6247365110c9a7c789826d4300&lt;/workflow_version&gt;&lt;x&gt;859&lt;/x&gt;&lt;y&gt;55&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=77ac792647365110c9a7c789826d437b"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;620&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;13cd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule"&gt;8eda2a35c0a800660f7aef7be752bf0b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;17cd79a647365110c9a7c789826d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;46d44a23a9fe19810012d100cca80666&lt;/value&gt;&lt;variable display_value="Assigned to"&gt;c35e0c980a0a0ba96248a70916cbc62e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;2000&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;1bcd79a647365110c9a7c789826d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;&lt;variable display_value="Due date script"&gt;8eca692cc0a80066783fefee57143a1a&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1500&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;1fcd79a647365110c9a7c789826d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Task template"&gt;c35e45aa0a0a0ba96248a709f3af7bac&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;610&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;1fcd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule field"&gt;8ecf789cc0a8006652fc30aae937c5aa&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;53cd79a647365110c9a7c789826d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;&lt;variable display_value="Relative duration"&gt;8ec7a5dbc0a80066187fa7acf3778705&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;40&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;57cd79a647365110c9a7c789826d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="Wait for completion"&gt;c35e5fc70a0a0ba96248a7091af61d11&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;710&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;5bcd79a647365110c9a7c789826d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone"&gt;8ed4dbbec0a800664dbecf404d2c7ccd&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;5bcd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Instructions"&gt;c35e176c0a0a0ba96248a7090e235011&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;10&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;5fcd79a647365110c9a7c789826d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;task&lt;/value&gt;&lt;variable display_value="Task type"&gt;c35ddb660a0a0ba96248a7095d22925c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;700&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;93cd79a647365110c9a7c789826d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone based on"&gt;8ed08869c0a800662aafc17e09975bb3&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;720&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;93cd79a647365110c9a7c789826d4379&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Timezone field"&gt;8ed32275c0a800665d67078e699a171f&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;97cd79a647365110c9a7c789826d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Fulfillment group"&gt;c35e07ae0a0a0ba96248a7097c81317c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1710&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;97cd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;// Set values for the task in this script.  Use the variable 'task' when setting additional values.&amp;#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&amp;#13;
+//&amp;#13;
+// For example:&amp;#13;
+//     task.short_description = current.short_description;&amp;#13;
+&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Advanced Script"&gt;989cdb20c0a800661789b3de0f40214a&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;9bcd79a647365110c9a7c789826d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date field"&gt;8ec61405c0a800661755b30be4ff8fcd&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;9fcd79a647365110c9a7c789826d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Set values"&gt;c35dd7a80a0a0ba96248a709f45ae01b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1700&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;d3cd79a647365110c9a7c789826d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Advanced"&gt;989c45c8c0a8006676efffafaa6d7442&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1000&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;d3cd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;Fields&lt;/value&gt;&lt;variable display_value="Task values from"&gt;c35dfee20a0a0ba96248a709f3a40869&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;20&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;d7cd79a647365110c9a7c789826d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;4&lt;/value&gt;&lt;variable display_value="Priority"&gt;c35e49040a0a0ba96248a709c2b3780b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;250&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;dbcd79a647365110c9a7c789826d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Duration"&gt;c35e03850a0a0ba96248a709503bd0c4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;dfcd79a647365110c9a7c789826d4374&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule based on"&gt;8ecbeba5c0a8006672d676cd11dfa881&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;dfcd79a647365110c9a7c789826d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;NeedIt Task&lt;/value&gt;&lt;variable display_value="Short description"&gt;c35e10720a0a0ba96248a709d48d0894&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;dfcd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date based on"&gt;8ec1dbcec0a800662abc511f1daedc1d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;10&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;5fcd79a647365110c9a7c789826d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;task&lt;/value&gt;&lt;variable display_value="Task type"&gt;c35ddb660a0a0ba96248a7095d22925c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;20&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;d7cd79a647365110c9a7c789826d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;4&lt;/value&gt;&lt;variable display_value="Priority"&gt;c35e49040a0a0ba96248a709c2b3780b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;40&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;57cd79a647365110c9a7c789826d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;1&lt;/value&gt;&lt;variable display_value="Wait for completion"&gt;c35e5fc70a0a0ba96248a7091af61d11&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;dfcd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date based on"&gt;8ec1dbcec0a800662abc511f1daedc1d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;250&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;dbcd79a647365110c9a7c789826d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Duration"&gt;c35e03850a0a0ba96248a709503bd0c4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;9bcd79a647365110c9a7c789826d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date field"&gt;8ec61405c0a800661755b30be4ff8fcd&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;53cd79a647365110c9a7c789826d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;&lt;variable display_value="Relative duration"&gt;8ec7a5dbc0a80066187fa7acf3778705&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;dfcd79a647365110c9a7c789826d4374&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule based on"&gt;8ecbeba5c0a8006672d676cd11dfa881&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;610&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;1fcd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule field"&gt;8ecf789cc0a8006652fc30aae937c5aa&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;620&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;13cd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule"&gt;8eda2a35c0a800660f7aef7be752bf0b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;700&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;93cd79a647365110c9a7c789826d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone based on"&gt;8ed08869c0a800662aafc17e09975bb3&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;710&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;5bcd79a647365110c9a7c789826d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone"&gt;8ed4dbbec0a800664dbecf404d2c7ccd&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;720&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;93cd79a647365110c9a7c789826d4379&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Timezone field"&gt;8ed32275c0a800665d67078e699a171f&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1000&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;d3cd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;Fields&lt;/value&gt;&lt;variable display_value="Task values from"&gt;c35dfee20a0a0ba96248a709f3a40869&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;97cd79a647365110c9a7c789826d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Fulfillment group"&gt;c35e07ae0a0a0ba96248a7097c81317c&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;17cd79a647365110c9a7c789826d4377&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;46d44a23a9fe19810012d100cca80666&lt;/value&gt;&lt;variable display_value="Assigned to"&gt;c35e0c980a0a0ba96248a70916cbc62e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;dfcd79a647365110c9a7c789826d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;NeedIt Task&lt;/value&gt;&lt;variable display_value="Short description"&gt;c35e10720a0a0ba96248a709d48d0894&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1400&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;5bcd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Instructions"&gt;c35e176c0a0a0ba96248a7090e235011&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1500&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;1fcd79a647365110c9a7c789826d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Task template"&gt;c35e45aa0a0a0ba96248a709f3af7bac&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1600&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;9fcd79a647365110c9a7c789826d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Set values"&gt;c35dd7a80a0a0ba96248a709f45ae01b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1700&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;d3cd79a647365110c9a7c789826d4375&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Advanced"&gt;989c45c8c0a8006676efffafaa6d7442&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;1710&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;97cd79a647365110c9a7c789826d4378&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;// Set values for the task in this script.  Use the variable 'task' when setting additional values.&amp;#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&amp;#13;
+//&amp;#13;
+// For example:&amp;#13;
+//     task.short_description = current.short_description;&amp;#13;
+&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Advanced Script"&gt;989cdb20c0a800661789b3de0f40214a&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;77ac792647365110c9a7c789826d437b&lt;/document_key&gt;&lt;order&gt;2000&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;1bcd79a647365110c9a7c789826d4376&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;&lt;variable display_value="Due date script"&gt;8eca692cc0a80066783fefee57143a1a&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Create NeedIt Task"&gt;77ac792647365110c9a7c789826d437b&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:20&lt;/sys_created_on&gt;&lt;sys_id&gt;1fcd79a647365110c9a7c789826d4379&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:20&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="End"&gt;c7a66f7d0a0a0b3a004544a6d2f14076&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;2&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input/&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;End&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:02:49&lt;/sys_created_on&gt;&lt;sys_id&gt;9099b9a247365110c9a7c789826d432a&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:37&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width&gt;80&lt;/width&gt;&lt;workflow_version display_value="NeedIt Tasks"&gt;15d8bd6247365110c9a7c789826d4300&lt;/workflow_version&gt;&lt;x&gt;1055&lt;/x&gt;&lt;y&gt;244&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=9099b9a247365110c9a7c789826d432a"/&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Approval - User"&gt;35433da80a0a029a0028c639a1e51eb4&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;3&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Request Manager Approval&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;052af9a247365110c9a7c789826d43e7&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:15&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="NeedIt Tasks"&gt;15d8bd6247365110c9a7c789826d4300&lt;/workflow_version&gt;&lt;x&gt;144&lt;/x&gt;&lt;y&gt;48&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=052af9a247365110c9a7c789826d43e7"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;104&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;13ca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Document Table"&gt;e37a96e80a0004f978b47d2d6c5e0b22&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;17ca7de247365110c9a7c789826d430d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;approval=^EQ&lt;/value&gt;&lt;variable display_value="Condition"&gt;4485eef70a6a803f6bc4bafa9e999640&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;1bca7de247365110c9a7c789826d430c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Users"&gt;c35e4cc40a0a0ba96248a7098ec9cb06&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;101&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;1fca7de247365110c9a7c789826d430b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;approval&lt;/value&gt;&lt;variable display_value="Approval Column"&gt;e846198f0a0004f91fba434a514ba8b8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;115&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;1fca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date based on"&gt;a76680b9c0a8006661b107d0f21fae67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1110&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;53ca7de247365110c9a7c789826d430d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Duration"&gt;a769a182c0a8006629db7fa3fc2a863d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1360&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;57ca7de247365110c9a7c789826d430c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;&lt;variable display_value="Due date script"&gt;a782cde9c0a8006608f39abdd85c8395&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;57cab96247365110c9a7c789826d4380&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone"&gt;a775f59ac0a8006665d72362ae687035&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1330&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;5bca7de247365110c9a7c789826d430b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Groups"&gt;02c618170a0a0b26436f5c2c9f7a3901&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;2050&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;5bca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&amp;#13;
+//&amp;#13;
+// For example:&amp;#13;
+//       answer = [];&amp;#13;
+//       answer.push('id1');&amp;#13;
+//       answer.push('id2');&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Additional approvers script"&gt;c35e582f0a0a0ba96248a70985207e63&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;5fca7de247365110c9a7c789826d430d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule"&gt;a7754e91c0a800664938d0ef6d2664d7&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;120&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;93ca7de247365110c9a7c789826d430c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone based on"&gt;a77903a7c0a8006641af7c9b1d34444e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1370&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;93cab96247365110c9a7c789826d4380&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&amp;#13;
+//&amp;#13;
+//    counts.total = total number of users that are part of this approval&amp;#13;
+//    counts.approved = # of users that approved so far&amp;#13;
+//    counts.rejected = # of users that rejected so far&amp;#13;
+//    counts.requested = # of users that are pending approval&amp;#13;
+//    counts.not_requested = # of users that are not pending approval&amp;#13;
+//    counts.not_required = # of users that approval is not required&amp;#13;
+//&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Approval Script"&gt;02c86d780a0a0b261e6a356bc893d348&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;97ca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule field"&gt;a774138dc0a80066000be7af20961c7d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1150&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;9bca7de247365110c9a7c789826d430d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date field"&gt;a76b8c6ec0a800664bb14d5d8b9cd7c4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;310&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;9fca7de247365110c9a7c789826d430c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;reject&lt;/value&gt;&lt;variable display_value="When anyone rejects"&gt;502163410a6a803f0356332b24dc7945&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;d3ca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;any&lt;/value&gt;&lt;variable display_value="Wait for"&gt;c35e5bdd0a0a0ba96248a709f495c9ae&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1120&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;d7ca7de247365110c9a7c789826d430d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;&lt;variable display_value="Relative duration"&gt;a76c6257c0a8006645cff43883470e64&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;110&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;d7cab96247365110c9a7c789826d437f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule based on"&gt;a77191a4c0a800662b403f7dff5f1bbd&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;330&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;dbca7de247365110c9a7c789826d430c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;approval_history&lt;/value&gt;&lt;variable display_value="Approval Journal Column"&gt;e863e3b80a0004f911d67787e77e0f16&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;103&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;dfca7de247365110c9a7c789826d430b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Document ID"&gt;e37b77ac0a0004f973283ad13b341c5b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;dfca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone field"&gt;a7781cb6c0a80066147dc7a5244d5d16&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;2000&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;dfcab96247365110c9a7c789826d437f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Advanced"&gt;02ca01820a0a0b261cf923fb95f5e1d0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;50&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;17ca7de247365110c9a7c789826d430d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;approval=^EQ&lt;/value&gt;&lt;variable display_value="Condition"&gt;4485eef70a6a803f6bc4bafa9e999640&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;d3ca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;any&lt;/value&gt;&lt;variable display_value="Wait for"&gt;c35e5bdd0a0a0ba96248a709f495c9ae&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;101&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;1fca7de247365110c9a7c789826d430b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;approval&lt;/value&gt;&lt;variable display_value="Approval Column"&gt;e846198f0a0004f91fba434a514ba8b8&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;103&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;dfca7de247365110c9a7c789826d430b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Document ID"&gt;e37b77ac0a0004f973283ad13b341c5b&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;104&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;13ca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Document Table"&gt;e37a96e80a0004f978b47d2d6c5e0b22&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;110&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;d7cab96247365110c9a7c789826d437f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule based on"&gt;a77191a4c0a800662b403f7dff5f1bbd&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;115&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;1fca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date based on"&gt;a76680b9c0a8006661b107d0f21fae67&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;120&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;93ca7de247365110c9a7c789826d430c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone based on"&gt;a77903a7c0a8006641af7c9b1d34444e&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;1bca7de247365110c9a7c789826d430c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Users"&gt;c35e4cc40a0a0ba96248a7098ec9cb06&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;310&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;9fca7de247365110c9a7c789826d430c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;reject&lt;/value&gt;&lt;variable display_value="When anyone rejects"&gt;502163410a6a803f0356332b24dc7945&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;330&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;dbca7de247365110c9a7c789826d430c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;approval_history&lt;/value&gt;&lt;variable display_value="Approval Journal Column"&gt;e863e3b80a0004f911d67787e77e0f16&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;97ca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule field"&gt;a774138dc0a80066000be7af20961c7d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;900&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;5fca7de247365110c9a7c789826d430d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Schedule"&gt;a7754e91c0a800664938d0ef6d2664d7&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1110&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;53ca7de247365110c9a7c789826d430d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Duration"&gt;a769a182c0a8006629db7fa3fc2a863d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1120&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;d7ca7de247365110c9a7c789826d430d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;3bf802c20a0a0b52008e2859cd8abcf2&lt;/value&gt;&lt;variable display_value="Relative duration"&gt;a76c6257c0a8006645cff43883470e64&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1150&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;9bca7de247365110c9a7c789826d430d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Due date field"&gt;a76b8c6ec0a800664bb14d5d8b9cd7c4&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;57cab96247365110c9a7c789826d4380&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone"&gt;a775f59ac0a8006665d72362ae687035&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1200&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;dfca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Time zone field"&gt;a7781cb6c0a80066147dc7a5244d5d16&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1330&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;5bca7de247365110c9a7c789826d430b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value/&gt;&lt;variable display_value="Groups"&gt;02c618170a0a0b26436f5c2c9f7a3901&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1360&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;57ca7de247365110c9a7c789826d430c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;// Set 'answer' to the number of seconds this timer should wait&amp;#13;
+answer = 0;&lt;/value&gt;&lt;variable display_value="Due date script"&gt;a782cde9c0a8006608f39abdd85c8395&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;1370&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;93cab96247365110c9a7c789826d4380&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&amp;#13;
+//&amp;#13;
+//    counts.total = total number of users that are part of this approval&amp;#13;
+//    counts.approved = # of users that approved so far&amp;#13;
+//    counts.rejected = # of users that rejected so far&amp;#13;
+//    counts.requested = # of users that are pending approval&amp;#13;
+//    counts.not_requested = # of users that are not pending approval&amp;#13;
+//    counts.not_required = # of users that approval is not required&amp;#13;
+//&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Approval Script"&gt;02c86d780a0a0b261e6a356bc893d348&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;2000&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;dfcab96247365110c9a7c789826d437f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Advanced"&gt;02ca01820a0a0b261cf923fb95f5e1d0&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;052af9a247365110c9a7c789826d43e7&lt;/document_key&gt;&lt;order&gt;2050&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;5bca7de247365110c9a7c789826d430e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;value&gt;// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&amp;#13;
+//&amp;#13;
+// For example:&amp;#13;
+//       answer = [];&amp;#13;
+//       answer.push('id1');&amp;#13;
+//       answer.push('id2');&amp;#13;
+&lt;/value&gt;&lt;variable display_value="Additional approvers script"&gt;c35e582f0a0a0ba96248a70985207e63&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Request Manager Approval"&gt;052af9a247365110c9a7c789826d43e7&lt;/activity&gt;&lt;condition&gt;activity.result == 'approved' || activity.result == 'skipped'&lt;/condition&gt;&lt;condition_default display_value="Approved"&gt;586e1fa60a0a0b5c008121ab894f2b06&lt;/condition_default&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Approved&lt;/name&gt;&lt;order&gt;1&lt;/order&gt;&lt;short_description&gt;Approval request was approved&lt;/short_description&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;5bca7de247365110c9a7c789826d430f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Request Manager Approval"&gt;052af9a247365110c9a7c789826d43e7&lt;/activity&gt;&lt;condition&gt;activity.result == 'rejected'&lt;/condition&gt;&lt;condition_default display_value="Rejected"&gt;586e4ef60a0a0b5c00440b56c014c8a5&lt;/condition_default&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;false&lt;/is_positive&gt;&lt;name&gt;Rejected&lt;/name&gt;&lt;order&gt;2&lt;/order&gt;&lt;short_description&gt;Approval request was rejected&lt;/short_description&gt;&lt;skip_during_generate&gt;true&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:13&lt;/sys_created_on&gt;&lt;sys_id&gt;1bca7de247365110c9a7c789826d4310&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:13&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Set Values"&gt;1ca8d7cf0a0a0b265e9a000c2c08248c&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;4&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Set State to Approved&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:14:07&lt;/sys_created_on&gt;&lt;sys_id&gt;341c7de247365110c9a7c789826d4317&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:14:09&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="NeedIt Tasks"&gt;15d8bd6247365110c9a7c789826d4300&lt;/workflow_version&gt;&lt;x&gt;536&lt;/x&gt;&lt;y&gt;54&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=341c7de247365110c9a7c789826d4317"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;341c7de247365110c9a7c789826d4317&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:14:07&lt;/sys_created_on&gt;&lt;sys_id&gt;e92cf12647365110c9a7c789826d43b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:14:07&lt;/sys_updated_on&gt;&lt;value&gt;approval=approved^EQ&lt;/value&gt;&lt;variable display_value="Set these values"&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;341c7de247365110c9a7c789826d4317&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:14:07&lt;/sys_created_on&gt;&lt;sys_id&gt;e92cf12647365110c9a7c789826d43b9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:14:07&lt;/sys_updated_on&gt;&lt;value&gt;approval=approved^EQ&lt;/value&gt;&lt;variable display_value="Set these values"&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Set State to Approved"&gt;341c7de247365110c9a7c789826d4317&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:14:07&lt;/sys_created_on&gt;&lt;sys_id&gt;252cf12647365110c9a7c789826d43ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:14:07&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_activity action="INSERT_OR_UPDATE"&gt;&lt;activity_definition display_value="Set Values"&gt;1ca8d7cf0a0a0b265e9a000c2c08248c&lt;/activity_definition&gt;&lt;activity_definition_updated&gt;false&lt;/activity_definition_updated&gt;&lt;databus_lookup_id&gt;5&lt;/databus_lookup_id&gt;&lt;height/&gt;&lt;input&gt;{}&lt;/input&gt;&lt;is_parent&gt;false&lt;/is_parent&gt;&lt;name&gt;Set State to Closed Complete&lt;/name&gt;&lt;new_activity_definition/&gt;&lt;notes/&gt;&lt;out_of_date&gt;false&lt;/out_of_date&gt;&lt;parent/&gt;&lt;pinned&gt;false&lt;/pinned&gt;&lt;pinned_version/&gt;&lt;stage/&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:15:46&lt;/sys_created_on&gt;&lt;sys_id&gt;d16cb12647365110c9a7c789826d433a&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:16:05&lt;/sys_updated_on&gt;&lt;timeout&gt;1970-01-01 00:00:00&lt;/timeout&gt;&lt;vars/&gt;&lt;width/&gt;&lt;workflow_version display_value="NeedIt Tasks"&gt;15d8bd6247365110c9a7c789826d4300&lt;/workflow_version&gt;&lt;x&gt;539&lt;/x&gt;&lt;y&gt;160&lt;/y&gt;&lt;/wf_activity&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d16cb12647365110c9a7c789826d433a"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;d16cb12647365110c9a7c789826d433a&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:15:46&lt;/sys_created_on&gt;&lt;sys_id&gt;398c716647365110c9a7c789826d433c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:15:46&lt;/sys_updated_on&gt;&lt;value&gt;approval=rejected^EQ&lt;/value&gt;&lt;variable display_value="Set these values"&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;wf_activity&lt;/document&gt;&lt;document_key&gt;d16cb12647365110c9a7c789826d433a&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:15:46&lt;/sys_created_on&gt;&lt;sys_id&gt;398c716647365110c9a7c789826d433c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:15:46&lt;/sys_updated_on&gt;&lt;value&gt;approval=rejected^EQ&lt;/value&gt;&lt;variable display_value="Set these values"&gt;1cb38c8f0a0a0b266fb48e08de35f507&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;wf_condition action="INSERT_OR_UPDATE"&gt;&lt;activity display_value="Set State to Closed Complete"&gt;d16cb12647365110c9a7c789826d433a&lt;/activity&gt;&lt;condition&gt;true&lt;/condition&gt;&lt;condition_default/&gt;&lt;condition_type&gt;standard&lt;/condition_type&gt;&lt;else_flag&gt;false&lt;/else_flag&gt;&lt;error&gt;false&lt;/error&gt;&lt;event&gt;false&lt;/event&gt;&lt;event_name/&gt;&lt;is_positive&gt;true&lt;/is_positive&gt;&lt;name&gt;Always&lt;/name&gt;&lt;order&gt;0&lt;/order&gt;&lt;short_description/&gt;&lt;skip_during_generate&gt;false&lt;/skip_during_generate&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:15:46&lt;/sys_created_on&gt;&lt;sys_id&gt;718c716647365110c9a7c789826d433d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:15:46&lt;/sys_updated_on&gt;&lt;/wf_condition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Approved"&gt;5bca7de247365110c9a7c789826d430f&lt;/condition&gt;&lt;from display_value="Request Manager Approval"&gt;052af9a247365110c9a7c789826d43e7&lt;/from&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:08:15&lt;/sys_created_on&gt;&lt;sys_id&gt;23ca7da247365110c9a7c789826d438e&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:14:09&lt;/sys_updated_on&gt;&lt;to display_value="Set State to Approved"&gt;341c7de247365110c9a7c789826d4317&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;252cf12647365110c9a7c789826d43ba&lt;/condition&gt;&lt;from display_value="Set State to Approved"&gt;341c7de247365110c9a7c789826d4317&lt;/from&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:14:38&lt;/sys_created_on&gt;&lt;sys_id&gt;5d4cfd2647365110c9a7c789826d43c7&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:22&lt;/sys_updated_on&gt;&lt;to display_value="Create NeedIt Task"&gt;77ac792647365110c9a7c789826d437b&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;718c716647365110c9a7c789826d433d&lt;/condition&gt;&lt;from display_value="Set State to Closed Complete"&gt;d16cb12647365110c9a7c789826d433a&lt;/from&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:33&lt;/sys_created_on&gt;&lt;sys_id&gt;92dd7d6647365110c9a7c789826d43cb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:33&lt;/sys_updated_on&gt;&lt;to display_value="End"&gt;9099b9a247365110c9a7c789826d432a&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;1fcd79a647365110c9a7c789826d4379&lt;/condition&gt;&lt;from display_value="Create NeedIt Task"&gt;77ac792647365110c9a7c789826d437b&lt;/from&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:21:22&lt;/sys_created_on&gt;&lt;sys_id&gt;afcd7de247365110c9a7c789826d432b&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:21:22&lt;/sys_updated_on&gt;&lt;to display_value="End"&gt;9099b9a247365110c9a7c789826d432a&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Always"&gt;9499b9a247365110c9a7c789826d4329&lt;/condition&gt;&lt;from display_value="Begin"&gt;d499b9a247365110c9a7c789826d4328&lt;/from&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:02:49&lt;/sys_created_on&gt;&lt;sys_id&gt;d899b9a247365110c9a7c789826d432a&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:08:15&lt;/sys_updated_on&gt;&lt;to display_value="Request Manager Approval"&gt;052af9a247365110c9a7c789826d43e7&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_transition action="INSERT_OR_UPDATE"&gt;&lt;condition display_value="Rejected"&gt;1bca7de247365110c9a7c789826d4310&lt;/condition&gt;&lt;from display_value="Request Manager Approval"&gt;052af9a247365110c9a7c789826d43e7&lt;/from&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:15:51&lt;/sys_created_on&gt;&lt;sys_id&gt;f28c752647365110c9a7c789826d43da&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:15:51&lt;/sys_updated_on&gt;&lt;to display_value="Set State to Closed Complete"&gt;d16cb12647365110c9a7c789826d433a&lt;/to&gt;&lt;/wf_transition&gt;&lt;wf_estimated_runtime_config action="INSERT_OR_UPDATE"&gt;&lt;estimated_run_time/&gt;&lt;no_of_data_points&gt;1&lt;/no_of_data_points&gt;&lt;percentage_threshold_ert&gt;20&lt;/percentage_threshold_ert&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-10-30 12:02:49&lt;/sys_created_on&gt;&lt;sys_id&gt;5099b9a247365110c9a7c789826d4326&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-10-30 12:02:49&lt;/sys_updated_on&gt;&lt;workflow_version display_value="NeedIt Tasks"&gt;15d8bd6247365110c9a7c789826d4300&lt;/workflow_version&gt;&lt;/wf_estimated_runtime_config&gt;&lt;wf_workflow_version action="update_multiple" query="workflow=9099b9a247365110c9a7c789826d4327^sys_id!=15d8bd6247365110c9a7c789826d4300"&gt;&lt;published&gt;false&lt;/published&gt;&lt;/wf_workflow_version&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-623236164</payload_hash>
+        <record_name>NeedIt Tasks</record_name>
+        <reverted_from/>
+        <source>89972cee47be1110c9a7c789826d4313</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 12:22:07</sys_created_on>
+        <sys_id>3efd3da647365110c9a7c789826d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18428d793810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-30 12:22:07</sys_updated_on>
+        <type>Workflow</type>
+        <update_guid>76fd3da6f83651105baeebb0ce527a69</update_guid>
+        <update_guid_history>76fd3da6f83651105baeebb0ce527a69:-623236164</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt Tasks">40e90ea247765110c9a7c789826d437a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-30 13:14:05</sys_created_on>
+        <sys_db_object display_value="" name="wf_workflow">wf_workflow</sys_db_object>
+        <sys_id>45077c9f64b747c4beafafa6fe6a0610</sys_id>
+        <sys_metadata>9099b9a247365110c9a7c789826d4327</sys_metadata>
+        <sys_name>NeedIt Tasks</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>wf_workflow_9099b9a247365110c9a7c789826d4327</sys_update_name>
+        <sys_update_version display_value="wf_workflow_9099b9a247365110c9a7c789826d4327">3efd3da647365110c9a7c789826d4369</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

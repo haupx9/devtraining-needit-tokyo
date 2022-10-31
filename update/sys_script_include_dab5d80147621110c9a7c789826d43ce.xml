@@ -10,29 +10,27 @@
         <name>NeedItUtils</name>
         <script><![CDATA[var NeedItUtils = Class.create();
 NeedItUtils.prototype = {
-    initialize: function() {
+    initialize: function() {},
+    isDatePast: function(strDate) {
+        // Create GlideDateTime objects for the current date and the passed in date
+        var rightnow = new GlideDateTime();
+        var testdate = new GlideDateTime(strDate);
+
+        // If the testdate is before rightnow, return true, else return false
+        if (testdate.before(rightnow)) {
+            return true;
+        } else {
+            return false;
+        }
     },
-	isDatePast: function(strDate){
-    // Create GlideDateTime objects for the current date and the passed in date
-    var rightnow = new GlideDateTime();
-    var testdate = new GlideDateTime(strDate);
-    
-    // If the testdate is before rightnow, return true, else return false
-    if (testdate.before(rightnow)) {
-      return true;
-    }
-    else {
-      return false;
-    }
-  },
-	isDateToday: function(strDate){
-		var rightnow = new GlideDateTime();
-		var testdate = new GlideDateTime(strDate);
-		if(rightnow.compareTo(testDate)){
-			return true;
-		}
-		return false;
-	},
+    isDateToday: function(strDate) {
+        var rightnow = new GlideDateTime();
+        var testdate = new GlideDateTime(strDate);
+        if (rightnow.compareTo(testDate)) {
+            return true;
+        }
+        return false;
+    },
     type: 'NeedItUtils'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
