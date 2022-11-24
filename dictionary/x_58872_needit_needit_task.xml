@@ -5,6 +5,7 @@
                 <element inactive_on_update="false" label="Open" sequence="0" value="1"/>
                 <element inactive_on_update="false" label="Work in Progress" sequence="1" value="2"/>
                 <element inactive_on_update="false" label="Closed Coｍplete" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Closed Incomplete" sequence="3" value="4"/>
             </choice>
         </element>
     </element>
