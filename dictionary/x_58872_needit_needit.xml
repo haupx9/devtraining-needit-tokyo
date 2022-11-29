@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="hasLabels=true" audit="true" db_object_id="356bf94247d61110c9a7c789826d435a" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+    <element audit="true" db_object_id="356bf94247d61110c9a7c789826d435a" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
         <element label="New 1" max_length="40" name="new_1" type="integer"/>
         <element label="New field 1" max_length="40" name="new_field_1" type="integer"/>
         <element label="New field 2" max_length="40" name="new_field_2" type="boolean"/>

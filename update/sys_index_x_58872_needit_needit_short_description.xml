@@ -12,7 +12,7 @@
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_index_x_58872_needit_needit_short_description</sys_update_name>
-        <table display_value="NeedIt" name="x_58872_needit_needit">356bf94247d61110c9a7c789826d435a</table>
+        <table/>
         <unique_index>false</unique_index>
     </sys_index>
 </record_update>

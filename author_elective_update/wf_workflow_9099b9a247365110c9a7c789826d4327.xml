@@ -1893,7 +1893,7 @@ answer = 0;&lt;/value&gt;&lt;variable display_value="Due date script"&gt;a782cde
         <reverted_from/>
         <source>89972cee47be1110c9a7c789826d4313</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-10-30 12:22:07</sys_created_on>
         <sys_id>3efd3da647365110c9a7c789826d4369</sys_id>
